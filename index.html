@@ -280,6 +280,12 @@ hr.sep{border:none;border-top:1px solid var(--border2);margin:2rem 0}
   <a class="nav-item" onclick="nav('f-tir',this)" href="#">
     <span class="ni">🎯</span>Tir & CEVITAL
   </a>
+  <a class="nav-item" onclick="nav('f-perimetre',this)" href="#">
+    <span class="ni">🚧</span>Périmètre de Sécurité
+  </a>
+  <a class="nav-item" onclick="nav('f-frequences',this)" href="#">
+    <span class="ni">📡</span>Fréquences Radio
+  </a>
 
   <div class="sb-section">Examens</div>
   <a class="nav-item" onclick="nav('e-callradio',this)" href="#">
@@ -761,6 +767,198 @@ hr.sep{border:none;border-top:1px solid var(--border2);margin:2rem 0}
       <li>Minimum <strong>3 formations/évaluations par semaine</strong> par formateur.</li>
       <li>La formation se fait en groupe — l'examen se passe individuellement juste après.</li>
     </ul>
+  </div>
+
+
+  <!-- ═══ PÉRIMÈTRE DE SÉCURITÉ ═══ -->
+  <div class="page" id="pg-f-perimetre">
+    <div class="hero">
+      <div class="hero-tag">Formation · Démonstration</div>
+      <h1>🚧 Périmètre de Sécurité</h1>
+      <p>Formation dédiée à la mise en place des périmètres de sécurité lors d'opérations telles que les braquages, prises d'otages et interventions majeures. <strong>Pas d'examen — démonstration pratique uniquement.</strong></p>
+    </div>
+
+    <div class="callout callout-success">
+      <strong>✅ Format :</strong> Cette formation se déroule uniquement en <strong>démonstration</strong>. Le formateur montre, explique et fait pratiquer. Aucun examen noté n'est requis.
+    </div>
+
+    <h2><span class="h2-icon">🎮</span> Accès aux Objets — F6</h2>
+    <p>Les barrières et objets de périmètre sont accessibles directement en jeu via le menu F6 :</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-body"><div class="step-title">Appuyer sur F6</div><div class="step-desc">Ouvre le menu principal des actions disponibles.</div></div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-body"><div class="step-title">Sélectionner « Intéraction Objets »</div><div class="step-desc">Visible dans la liste des actions disponibles du menu.</div></div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-body"><div class="step-title">Choisir « Barrières »</div><div class="step-desc">Permet de placer les barrières de sécurité. Autres objets disponibles : Cone, Tonnelle, Gros carton.</div></div></div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:1.25rem 0">
+      <div style="border:1px solid var(--border);border-radius:10px;overflow:hidden">
+        <img src="img_menu_f6.png" style="width:100%;display:block" alt="Menu F6 - Intéraction objets">
+        <div style="padding:.5rem .875rem;font-size:12px;color:var(--white2);background:rgba(255,255,255,.02)">F6 → Intéraction objets — 8/10 actions disponibles</div>
+      </div>
+      <div style="border:1px solid var(--border);border-radius:10px;overflow:hidden">
+        <img src="img_menu_barrieres.png" style="width:100%;display:block" alt="Sous-menu Barrières">
+        <div style="padding:.5rem .875rem;font-size:12px;color:var(--white2);background:rgba(255,255,255,.02)">Sélectionner « Barrières » parmi les objets disponibles</div>
+      </div>
+    </div>
+
+    <h2><span class="h2-icon">🖱️</span> Contrôles de Placement</h2>
+    <div class="code-grid">
+      <div class="code-item"><span class="code-tag">Touche ALT</span><span class="code-desc">Coller l'objet au sol — indispensable pour les barrières.</span></div>
+      <div class="code-item"><span class="code-tag">Touche R</span><span class="code-desc">Passer au menu de rotation de l'objet.</span></div>
+      <div class="code-item"><span class="code-tag">Barre bleue</span><span class="code-desc">Dans le menu rotation : contrôle la rotation horizontale.</span></div>
+      <div class="code-item"><span class="code-tag">Carré jaune (bas)</span><span class="code-desc">Déplacer l'objet sur le sol dans la direction souhaitée.</span></div>
+    </div>
+
+    <h2><span class="h2-icon">🗺️</span> Où et Comment Placer le Périmètre</h2>
+    <div class="callout callout-danger">
+      <strong>🔴 Règle fondamentale :</strong> On bloque <strong>toute la rue</strong> — y compris les petites ruelles et passages où un véhicule pourrait passer. Aucune issue ne doit rester ouverte sans contrôle.
+    </div>
+    <div class="rule-card"><strong>Bloquer tous les accès principaux</strong><p>Chaque entrée/sortie de la zone doit être fermée par des barrières. Les véhicules suspects ne doivent pas pouvoir pénétrer ou s'échapper librement dans le périmètre.</p></div>
+    <div class="rule-card"><strong>Surveiller les ruelles et passages latéraux</strong><p>Les petites rues et passages latéraux sont souvent ignorés. Ils doivent être bloqués au même titre que les axes principaux pour éviter toute intrusion ou fuite.</p></div>
+    <div class="rule-card"><strong>Positionner les véhicules en renfort des barrières</strong><p>Les véhicules de patrouille viennent compléter les barrières physiques et servent de point de couverture pour les agents en Low-Ready.</p></div>
+
+    <h2><span class="h2-icon">🎖️</span> Rôles : Lead Terrain & Négociateur</h2>
+    <div class="callout callout-info">
+      <strong>📌 Principe de commandement :</strong> Le <strong>Négociateur</strong> gère le dialogue avec les suspects. Le <strong>Lead Terrain</strong> écoute ses instructions et dirige les agents sur le terrain en conséquence.
+    </div>
+    <div class="rule-card"><strong>Lead Terrain</strong><p>Coordonne le placement des agents et des barrières. Il reçoit les directives du négociateur et les traduit en ordres tactiques pour les unités sur le terrain. C'est lui qui autorise ou retire une voie selon les conditions négociées.</p></div>
+    <div class="rule-card"><strong>Négociateur</strong><p>Communique avec les suspects. Il informe le Lead Terrain des conditions négociées — par exemple si une voie de sortie est accordée. Il ne gère pas directement les agents.</p></div>
+
+    <h2><span class="h2-icon">🤝</span> Règles de Négociation</h2>
+    <ul>
+      <li>Les négociations ne débutent <strong>que lorsque</strong> le périmètre est entièrement en place et que <strong>tous les agents sont en position Low-Ready.</strong></li>
+      <li>Si une voie est négociée, elle doit être <strong>retirée immédiatement après</strong> la négociation — pour éviter toute intrusion non contrôlée et maîtriser le timing de la poursuite.</li>
+      <li>Le suspect ne peut pas partir à n'importe quel moment : le retrait des barrières donne le signal du départ, et les agents doivent être en véhicule avant.</li>
+    </ul>
+
+    <h2><span class="h2-icon">📸</span> Position Low-Ready</h2>
+    <p>Tous les agents adoptent la position Low-Ready avant le début des négociations :</p>
+    <div style="border:1px solid var(--border);border-radius:10px;overflow:hidden;margin:1rem 0">
+      <img src="img_low_ready.png" style="width:100%;display:block" alt="Position Low-Ready">
+      <div style="padding:.5rem .875rem;font-size:12px;color:var(--white2);background:rgba(255,255,255,.02)">Position Low-Ready — arme abaissée, couverture derrière véhicule ou barrières</div>
+    </div>
+
+    <h2><span class="h2-icon">🚧</span> Exemple de Périmètre Correct</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:1rem 0">
+      <div style="border:1px solid var(--border);border-radius:10px;overflow:hidden">
+        <img src="img_perimetre_rue.png" style="width:100%;display:block" alt="Périmètre - vue rue">
+        <div style="padding:.5rem .875rem;font-size:12px;color:var(--white2);background:rgba(255,255,255,.02)">Barrières déployées sur toute la largeur — aucun passage libre</div>
+      </div>
+      <div style="border:1px solid var(--border);border-radius:10px;overflow:hidden">
+        <img src="img_perimetre_aerien.png" style="width:100%;display:block" alt="Périmètre - vue aérienne">
+        <div style="padding:.5rem .875rem;font-size:12px;color:var(--white2);background:rgba(255,255,255,.02)">Vue aérienne — positionnement des véhicules de patrouille</div>
+      </div>
+    </div>
+
+    <h2><span class="h2-icon">🎬</span> Vidéos de Démonstration</h2>
+    <p>Exemples réels de mise en place d'un périmètre de sécurité :</p>
+    <div style="display:flex;flex-direction:column;gap:12px;margin:1rem 0">
+      <div style="border:1px solid var(--border);border-radius:10px;overflow:hidden">
+        <video controls style="width:100%;display:block;max-height:420px;background:#000">
+          <source src="demo_perimetre_1.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la lecture vidéo.
+        </video>
+        <div style="padding:.625rem 1rem;font-size:12px;color:var(--white2);background:rgba(255,255,255,.02)">
+          <strong style="color:var(--gold)">Démo 1</strong> — Mise en place du périmètre et positionnement des agents
+        </div>
+      </div>
+      <div style="border:1px solid var(--border);border-radius:10px;overflow:hidden">
+        <video controls style="width:100%;display:block;max-height:420px;background:#000">
+          <source src="demo_perimetre_2.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la lecture vidéo.
+        </video>
+        <div style="padding:.625rem 1rem;font-size:12px;color:var(--white2);background:rgba(255,255,255,.02)">
+          <strong style="color:var(--gold)">Démo 2</strong> — Exemple de périmètre complet lors d'un braquage
+        </div>
+      </div>
+    </div>
+
+    <h2><span class="h2-icon">🚔</span> Situations Nécessitant un Périmètre</h2>
+    <div class="affil-wrap">
+      <span class="affil-tag">🏦 Fleeca</span>
+      <span class="affil-tag">💎 Bijouterie</span>
+      <span class="affil-tag">🏛️ Banque Centrale</span>
+      <span class="affil-tag">🤝 Prise d'otages</span>
+      <span class="affil-tag">🔫 Braquage armé</span>
+      <span class="affil-tag">⚠️ Toute opération majeure</span>
+    </div>
+
+    <h2><span class="h2-icon">🏁</span> Fin d'Opération — Retrait des Barrières</h2>
+    <div class="callout callout-warn">
+      <strong>⚠️ Obligation de nettoyage :</strong> À la fin de chaque braquage, une patrouille désignée par le Lead Terrain <strong>reste sur zone</strong> pour retirer toutes les barrières. Les objets ne doivent pas rester dans la rue après l'opération.
+    </div>
+    <div class="rule-card"><strong>Patrouille de nettoyage</strong><p>Le Lead Terrain désigne avant la fin de l'opération quelle patrouille sera responsable du retrait des barrières. Cette patrouille ne participe pas à la course-poursuite et reste sur zone.</p></div>
+  </div>
+
+  <!-- ═══ FRÉQUENCES RADIO ═══ -->
+  <div class="page" id="pg-f-frequences">
+    <div class="hero">
+      <div class="hero-tag">Formation · Call Radio</div>
+      <h1>📡 Fréquences Radio</h1>
+      <p>Chaque fréquence radio a une utilité précise. Savoir sur quelle radio se positionner selon la situation est indispensable pour ne pas polluer les canaux et coordonner efficacement les opérations.</p>
+    </div>
+
+    <div class="callout callout-info">
+      <strong>📌 Principe :</strong> En début de service, <strong>tout le monde est sur la Radio 1</strong>. On change de fréquence uniquement quand la situation l'impose, puis on revient systématiquement sur la Radio 1 à la fin.
+    </div>
+
+    <h2><span class="h2-icon">🔹</span> Fréquences Principales</h2>
+    <table class="tbl">
+      <thead>
+        <tr><th>Fréquence</th><th>Utilisateurs</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>1 à 10</strong></td><td>SASP</td></tr>
+        <tr><td><strong>910</strong></td><td>GOUV — SASP — EMS</td></tr>
+        <tr><td><strong>911</strong></td><td>GOUV — SASP</td></tr>
+      </tbody>
+    </table>
+
+    <h2><span class="h2-icon">🚓</span> Répartition des Canaux SASP</h2>
+    <div class="code-grid">
+      <div class="code-item"><span class="code-tag">Radio 1</span><span class="code-desc">Patrouille SASP — Canal principal, tout le monde y commence.</span></div>
+      <div class="code-item"><span class="code-tag">Radio 2</span><span class="code-desc">SWAT — Opérations tactiques spécialisées.</span></div>
+      <div class="code-item"><span class="code-tag">Radio 3</span><span class="code-desc">Fleeca — Canal dédié aux braquages de la Fleeca.</span></div>
+      <div class="code-item"><span class="code-tag">Radio 4</span><span class="code-desc">Fleeca — Second canal Fleeca si nécessaire.</span></div>
+      <div class="code-item"><span class="code-tag">Radio 5</span><span class="code-desc">Fleeca — Troisième canal Fleeca.</span></div>
+      <div class="code-item"><span class="code-tag">Radio 6</span><span class="code-desc">Bijouterie — Canal dédié aux braquages de bijouteries.</span></div>
+      <div class="code-item"><span class="code-tag">Radio 7</span><span class="code-desc">Opérations / Po — Opérations spéciales.</span></div>
+      <div class="code-item"><span class="code-tag">Radio 8</span><span class="code-desc">Opérations / Po — Second canal opérations.</span></div>
+      <div class="code-item"><span class="code-tag">Radio 9</span><span class="code-desc">Formation — Canal réservé aux sessions de formation.</span></div>
+      <div class="code-item"><span class="code-tag">Radio 10</span><span class="code-desc">Recrutement — Canal dédié aux recrutements en cours.</span></div>
+    </div>
+
+    <h2><span class="h2-icon">📖</span> Procédure — Passage sur Radio 3 (Fleeca)</h2>
+    <div class="callout callout-gold">
+      Dès qu'une Fleeca est signalée, les patrouilles concernées <strong>passent en Radio 3</strong> et annoncent leur passage. Cela permet à tout le monde de savoir combien d'unités sont déjà sur la situation, sans encombrer la Radio 1.
+    </div>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-body"><div class="step-title">Prise de service — Radio 1</div><div class="step-desc">Tout le monde commence en Radio 1 (patrouille générale). C'est le canal de base.</div></div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-body"><div class="step-title">Fleeca signalée</div><div class="step-desc">Les patrouilles qui se rendent sur place passent en Radio 3 et font leur call.</div></div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-body"><div class="step-title">Call radio exemple</div><div class="step-desc"><code>Adam 19 — passage Radio 3 — 10.91 Parking Central</code></div></div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-body"><div class="step-title">Gestion des effectifs</div><div class="step-desc">Chaque patrouille supplémentaire fait son call en Radio 3. Tout le monde sait en temps réel combien d'unités sont sur la Fleeca — évite le surplus ou le manque de renforts.</div></div></div>
+      <div class="step"><div class="step-num">5</div><div class="step-body"><div class="step-title">Fin de Fleeca — Retour Radio 1</div><div class="step-desc">Une fois la course-poursuite terminée, <strong>toutes les patrouilles repassent en Radio 1</strong>. La Radio 3 est libérée pour la prochaine situation.</div></div></div>
+    </div>
+
+    <h2><span class="h2-icon">🔴</span> Règles Importantes</h2>
+    <div class="rule-card"><strong>Le 10-99 reste toujours en Radio 1</strong><p>Peu importe la situation en cours, le code 10-99 s'annonce <strong>toujours sur la Radio 1</strong> pour que toutes les unités l'entendent.</p></div>
+    <div class="rule-card"><strong>Les poursuites restent sur leur canal dédié</strong><p>Pendant une course-poursuite (ex : Radio 3 pour une Fleeca), seuls les agents impliqués écoutent ce canal. Cela évite de surcharger la Radio 1 et permet aux autres patrouilles de continuer normalement.</p></div>
+    <div class="rule-card"><strong>Retour obligatoire en Radio 1 après chaque opération</strong><p>À la fin d'une opération, toutes les patrouilles repassent en Radio 1. Personne ne doit rester sur un canal secondaire et manquer les informations générales.</p></div>
+
+    <h2><span class="h2-icon">🎬</span> Exemple Complet — 4 Patrouilles sur une Fleeca</h2>
+    <div class="discord-box">
+      <div class="cmd-label">Déroulement radio type</div>
+      <div class="cmd-example">
+        [Radio 1] Adam 19 — passage Radio 3 — 10.91 Parking Central<br>
+        [Radio 1] Bravo 14 — passage Radio 3 — 10.91 Parking Central<br>
+        [Radio 1] Charlie 07 — passage Radio 3 — 10.91 Parking Central<br>
+        [Radio 1] Echo 22 — passage Radio 3 — 10.91 Parking Central<br>
+        <br>
+        → 4 patrouilles sur la Fleeca — situation bien couverte.<br>
+        → Radio 1 non encombrée par les échanges de la situation.<br>
+        → À la fin de la poursuite : toutes les unités repassent Radio 1.
+      </div>
+    </div>
   </div>
 
 </div><!-- /main -->
