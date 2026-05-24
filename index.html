@@ -671,28 +671,6 @@ hr.sep{border:none;border-top:1px solid var(--border2);margin:2rem 0}
       <li>respecter les annonces radio du lead poursuite ;</li>
       <li>éviter les collisions entre unités.</li>
     </ul>
-    <h2><span class="h2-icon">⏱️</span> Règles de temps et de gestion de poursuite</h2>
-
-    <div class="rule-card">
-      <strong>⏱️ Durée maximale de poursuite</strong>
-      <p>Une course-poursuite est limitée à <strong>5 minutes</strong>. Au-delà de ce délai, si le suspect n'est pas neutralisé ou arrêté, la poursuite doit être abandonnée.</p>
-    </div>
-
-    <div class="rule-card">
-      <strong>👁️ Perte de vue du véhicule — 2 droits maximum</strong>
-      <p>Il est toléré de perdre le véhicule suspect <strong>deux fois maximum</strong> durant la poursuite. À chaque perte de vue, l'unité dispose de <strong>45 secondes</strong> pour retrouver le véhicule. Passé ce délai sans contact visuel, la poursuite est considérée comme perdue.</p>
-    </div>
-
-    <div class="callout callout-danger">
-      <strong>🚗 Véhicule en panne moteur = poursuite échouée</strong><br>
-      Si le véhicule de patrouille tombe en panne moteur ou est gravement endommagé au point de ne plus être opérationnel, la poursuite est automatiquement <strong>déclarée échouée</strong>. L'unité ne peut pas continuer à pied ou demander un relais pour cette même poursuite.
-    </div>
-
-    <div class="callout callout-danger">
-      <strong>⚡ No pain abusifs = poursuite échouée</strong><br>
-      Si le suspect ignore de manière <strong>abusive et répétée</strong> des impacts qui auraient dû stopper son véhicule (no pain non crédibles), la poursuite est considérée comme non valide et doit être abandonnée. Le formateur évalue le caractère abusif de la situation.
-    </div>
-
     <h2><span class="h2-icon">📋</span> Déroulement de la session</h2>
     <ul>
       <li>Cours théorique collectif : règles, cas pratiques commentés.</li>
@@ -791,9 +769,36 @@ hr.sep{border:none;border-top:1px solid var(--border2);margin:2rem 0}
       <li>Notée sur <strong>5 points</strong> selon la pertinence et la précision des transmissions.</li>
     </ul>
     <h2><span class="h2-icon">🎬</span> Scénarios types</h2>
-    <div class="rule-card"><strong>Scénario 1 — Braquage signalé</strong><p>Le formateur annonce un 10-93. Le rookie doit transmettre sa position, son affiliation, et gérer les échanges radio pendant toute la situation.</p></div>
-    <div class="rule-card"><strong>Scénario 2 — Course-poursuite</strong><p>Le rookie ouvre le 10-31 correctement, décrit le véhicule, et coordonne avec les autres unités par radio.</p></div>
-    <div class="rule-card"><strong>Scénario 3 — Agent à terre</strong><p>Le rookie doit réagir en émettant le bon code (10-03) et coordonner les secours.</p></div>
+
+    <div class="rule-card">
+      <strong>Scénario 1 — Braquage signalé</strong>
+      <p>Le formateur (en central) annonce un 10-93 en cours. Le rookie doit répondre avec le bon call et se diriger sur place.</p>
+      <div class="discord-box" style="margin-top:.75rem">
+        <div class="cmd-label">Réponse attendue du rookie</div>
+        <div class="cmd-example">Adam 21, 10-17 sur le dernier 10-93, 10-23 dans deux minutes.</div>
+      </div>
+      <p style="margin-top:.5rem;font-size:12px;color:var(--white3)">👉 Évaluer : affiliation correcte, matricule, code de déplacement, annonce d'arrivée.</p>
+    </div>
+
+    <div class="rule-card">
+      <strong>Scénario 2 — Ouverture d'une course-poursuite</strong>
+      <p>Le rookie prend en chasse un véhicule suspect suite à un refus d'obtempérer. Il doit ouvrir le 10-31 avec toutes les informations nécessaires.</p>
+      <div class="discord-box" style="margin-top:.75rem">
+        <div class="cmd-label">Réponse attendue du rookie</div>
+        <div class="cmd-example">Adam 21, 10-31 d'une Sultan noire, direction autoroute sud, suite à un refus d'obtempérer — 10-32.</div>
+      </div>
+      <p style="margin-top:.5rem;font-size:12px;color:var(--white3)">👉 Évaluer : ouverture du 10-31, description du véhicule, direction, motif, demande de renfort si besoin.</p>
+    </div>
+
+    <div class="rule-card">
+      <strong>Scénario 3 — Agent à terre</strong>
+      <p>Le formateur annonce qu'un agent vient d'être touché. Le rookie doit réagir immédiatement avec le bon code et coordonner les secours.</p>
+      <div class="discord-box" style="margin-top:.75rem">
+        <div class="cmd-label">Réponse attendue du rookie</div>
+        <div class="cmd-example">Adam 21 pour centrale — 10-01 sur mon 10-20, besoin de 10-24 immédiat — 10-03.</div>
+      </div>
+      <p style="margin-top:.5rem;font-size:12px;color:var(--white3)">👉 Évaluer : usage du 10-01 (agent à terre), annonce du 10-03 (silence radio) pour dégager la fréquence, demande de renforts. Le 10-03 ici ordonne le silence, il ne désigne pas l'agent à terre.</p>
+    </div>
     <div class="callout callout-warn"><strong>En cas d'échec :</strong> 1er échec → repasser après <strong>24h</strong>. 2ème échec → attendre <strong>48h</strong>.</div>
   </div>
 
@@ -842,6 +847,28 @@ hr.sep{border:none;border-top:1px solid var(--border2);margin:2rem 0}
     <div class="rule-card"><strong>Gestion radio simultanée</strong><p>Transmissions correctes et régulières, formulations adaptées.</p></div>
     <div class="rule-card"><strong>Règles d'engagement</strong><p>Véhicule autorisé, PIT au bon moment, nombre de véhicules respecté.</p></div>
     <div class="rule-card"><strong>Gestion des priorités</strong><p>Le rookie ne perd pas le suspect, ne met pas en danger des civils, reste concentré sous pression.</p></div>
+    <h2><span class="h2-icon">⏱️</span> Règles de temps et de gestion de poursuite</h2>
+
+    <div class="rule-card">
+      <strong>⏱️ Durée maximale de poursuite</strong>
+      <p>Une course-poursuite est limitée à <strong>5 minutes</strong>. Au-delà de ce délai, si le suspect n'est pas neutralisé ou arrêté, la poursuite est automatiquement <strong>échouée</strong>.</p>
+    </div>
+
+    <div class="rule-card">
+      <strong>👁️ Perte de vue du véhicule — 2 droits maximum</strong>
+      <p>Il est toléré de perdre le véhicule suspect <strong>deux fois maximum</strong> durant la poursuite. À chaque perte de vue, l'unité dispose de <strong>45 secondes</strong> pour retrouver le véhicule. Passé ce délai sans contact visuel, la poursuite est <strong>échouée</strong>.</p>
+    </div>
+
+    <div class="callout callout-danger">
+      <strong>🚗 Véhicule en panne moteur = examen échoué</strong><br>
+      Si le véhicule de patrouille tombe en panne moteur ou est gravement endommagé au point de ne plus être opérationnel, l'examen est automatiquement <strong>déclaré échoué</strong>.
+    </div>
+
+    <div class="callout callout-danger">
+      <strong>⚡ No pain abusifs = examen échoué</strong><br>
+      Si le suspect ignore de manière <strong>abusive et répétée</strong> des impacts qui auraient dû stopper son véhicule (no pain non crédibles), l'examen est considéré comme non valide. Le formateur évalue le caractère abusif de la situation.
+    </div>
+
     <div class="callout callout-warn"><strong>En cas d'échec :</strong> 1er échec → repasser après <strong>24h</strong>. 2ème échec → attendre <strong>48h</strong>.</div>
   </div>
 
